@@ -1,6 +1,4 @@
 # Lab Report 1
-Horizontal rule:
-
 ---
 ## cd
 1. cd no directory
@@ -20,3 +18,6 @@ Horizontal rule:
 * The current working directory when the file is run is /home.
 * I got that output as cd only works for paths to directories and is not used with a path to a file as an argument.
 * There is an error, as cd only works with paths to directories and not files.
+
+---
+## ls

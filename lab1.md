@@ -14,7 +14,7 @@
 * There are no errors in this example. However, there may be an error if the specified directory doesn't exist.
 
 3. `cd` path to file
-* ![image](cdfile.png)
+* ![image](cdfileactual.png)
 * The current working directory when the file is run is `/home`.
 * I got that output as cd only works for paths to directories and is not used with a path to a file as an argument.
 * There is an error, as cd only works with paths to directories and not files.

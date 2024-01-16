@@ -10,7 +10,7 @@
 2. `cd` path to directory
 * ![Image](cddirectory.png)
 * The working directory when the command was run was `/home`
-* cd is used to change your working directory; when I ran cd lecture1, it changed my working directory to lecture1 instead of my home directory; this is shown by the lecture1 text in green.
+* `cd` is used to change your working directory; when I ran `cd` lecture1, it changed my working directory to lecture1 instead of my home directory; this is shown by the lecture1 text in green.
 * There are no errors in this example. However, there may be an error if the specified directory doesn't exist.
 
 3. `cd` path to file
@@ -42,9 +42,9 @@
 ---
 ## `cat`
 1. `cat` no arguments
-* ![Image](catnothing.png)
+* ![Image](catnothingactual.png)
 * the current working directory is `/home`.
-* the `cat` command with no arguments outputs nothing, as the `cat` is used to read files. When used without any arguments, the `cat` command will read inputs from its standard inputs and will not display anything.
+* When used without an argument, the cat command will read from its standard input. Initially, it seems like it's not doing anything, but in actuality, it is waiting for a response from the user. Anything you then type in the terminal will be echoed back and displayed on the terminal..
 * There are no errors.
 
 2. `cat` path to directory
@@ -54,7 +54,7 @@
 * This is an error as the `cat` command expects a file, not a directory.
 
 3. `cat` path to file.
-* ![Image](catfile.png)
+* ![Image](catfileactual.png)
 * The current working directory is `/home`.
-* The output is the contents of a specific file; in this case, it displays the contents of Hello.java.
+* The output is the contents of a specific file; in this case, it displays the contents of README.
 * There is no error.

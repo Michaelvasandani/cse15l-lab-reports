@@ -67,8 +67,8 @@ class chatserver {
 
 #### How do the values of any relevant fields of the class change from this specific request? 
 * toadd = "Michael: Yo \n" changed from toadd =  ""
----
-*![Image](CSE15lLabScreenshot2.png)
+
+* ![Image](CSE15lLabScreenshot2.png)
 #### Which methods are called
 * The `handleRequest()` method is the primary method that is called.
 * The `main()` method is also called

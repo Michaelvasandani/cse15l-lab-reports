@@ -54,10 +54,12 @@ class chatserver {
 * ![Image](CSE15lLabScreenshot1.png)
 #### Which methods are called
 * The `handleRequest()` method is the primary method that is called.
+* The `main()` method is also called
 * Inside the `handelRequest` method, other methods are called such as: `getQuery()`, `split()`, `length`, and `contains()`
 
 #### What are the relevant arguments in those methods
 * Argument of the `handleRequest()` method is URI http://localhost:3250/add-message?s=Yo&user=Michael
+* The argument for the `main()` method is the port number, in this case it is 3250.
 * `getQuery()` is called multiple times but it doesn't take in any arguments
 * `split()` is called multiple times the arguments for this method each time it's called is: "&", "=","="
 * `length` method does not take in any argument.
@@ -69,10 +71,12 @@ class chatserver {
 *![Image](CSE15lLabScreenshot2.png)
 #### Which methods are called
 * The `handleRequest()` method is the primary method that is called.
+* The `main()` method is also called
 * Inside the `handelRequest` method, other methods are called such as: `getQuery()`, `split()`, `length`, and `contains()`
 
 ##### What are the relevant arguments in those methods
 * Argument of the `handleRequest()` method is URI http://localhost:3250/add-message?s=Hello&user=Not%20Michael
+* The argument for the `main()` method is the port number, in this case it is 3250.
 * `getQuery()` is called multiple times but it doesn't take in any arguments
 * `split()` is called multiple times the arguments for this method each time it's called is: "&", "=", "="
 * `length` method does not take in any argument.

@@ -1,5 +1,6 @@
-# Lab Report 3
 
+# Lab Report 3
+---
 ## part 1:
 ### A failure-inducing input for the buggy program
 ```
@@ -50,7 +51,7 @@
 * The fix: In order to fix it, I just switched around newArray and the original array so that the elements of the new array get initialized to the aspects of the old array in the desired manner.
 
 ## part 2: find command line options
-### 1. -size
+### 1. `-size`
 * example 1:
 ```
   (base) michaelvasandani@MacBook-Pro-128 technical % find plos/ -size +12k
@@ -192,7 +193,7 @@ plos//pmed.0020281.txt
 ```
 * Using a size, you can perform a search query to find files that are equal to, greater than or less than your specified file size. This is useful if you want to look for specific files that are too big or that are very small.
 
-### -type
+### 2. `-type`
 * example 1:
 ```
 (base) michaelvasandani@MacBook-Pro-128 technical % find government -type d
@@ -464,7 +465,7 @@ plos//pmed.0020242.txt
 ```
 * Using -type f instructs the computer to look for regular files only. This is useful for operations that should be applied specifically to files, such as searching for files by name or extension.
 
-### iname
+### 3. `-iname`
 ```
 (base) michaelvasandani@MacBook-Pro-128 technical % find government/Alcohol_Problems -iname "*session2*txt"
 government/Alcohol_Problems/Session2-PDF.txt
@@ -492,7 +493,7 @@ government/Alcohol_Problems/Session2-PDF.txt
 ```
 * The -iname option allows users to perform a case-insensitive search for file names; this is useful to find files, if you forgot the complete name or don't remember the capitlisation of the file.
 
-  ### -o
+  ### 4. `-o`
 * Example 1:
 ```
 (base) michaelvasandani@MacBook-Pro-128 technical % find biomed -iname "*1468*txt" -o -iname "*2000*txt" 

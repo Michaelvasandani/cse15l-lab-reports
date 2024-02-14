@@ -191,7 +191,7 @@ plos//pmed.0020082.txt
 plos//pmed.0020120.txt
 plos//pmed.0020281.txt
 ```
-* Using a size, you can perform a search query to find files that are equal to, greater than or less than your specified file size. This is useful if you want to look for specific files that are too big or that are very small.
+* Using `-size`, you can perform a search query to find files that are equal to, greater than or less than your specified file size. This is useful if you want to look for specific files that are too big or that are very small.
 
 ### 2. `-type`
 * example 1:
@@ -205,7 +205,7 @@ government/Gen_Account_Office
 government/Post_Rate_Comm
 government/Media
 ```
-* Using -type d prints out the names paths of directories contained in a certain directory. This is useful if you want to perform operations on directories without affecting the files inside them.
+* Using `-type` d prints out the names paths of directories contained in a certain directory. This is useful if you want to perform operations on directories without affecting the files inside them.
 
 * Example 2:
 ```
@@ -463,7 +463,7 @@ plos//journal.pbio.0020012.txt
 plos//pmed.0020281.txt
 plos//pmed.0020242.txt
 ```
-* Using -type f instructs the computer to look for regular files only. This is useful for operations that should be applied specifically to files, such as searching for files by name or extension.
+* Using `-type f` instructs the computer to look for regular files only. This is useful for operations that should be applied specifically to files, such as searching for files by name or extension.
 
 ### 3. `-iname`
 ```
@@ -491,7 +491,7 @@ government/Alcohol_Problems/Session2-PDF.txt
 911report/chapter-10.txt
 911report/chapter-11.txt
 ```
-* The -iname option allows users to perform a case-insensitive search for file names; this is useful to find files, if you forgot the complete name or don't remember the capitalisation of the file.
+* The `-iname` option allows users to perform a case-insensitive search for file names; this is useful to find files, if you forgot the complete name or don't remember the capitalisation of the file.
 
   ### 4. `-o`
 * Example 1:
@@ -518,7 +518,7 @@ government/Media/BusinessWire.txt
 government/Media/Crains_New_York_Business.txt
 ```
 
-* In these two examples I used the -o option acts as the operator OR, allowing users to specify multiple search criteria. This is useful for broadening search queries if you're looking for multiple things.
+* In these two examples I used the `-o` option acts as the operator OR, allowing users to specify multiple search criteria. This is useful for broadening search queries if you're looking for multiple things.
 
 # Sources:
 * <https://snapshooter.com/learn/linux/find>

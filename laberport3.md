@@ -491,7 +491,7 @@ government/Alcohol_Problems/Session2-PDF.txt
 911report/chapter-10.txt
 911report/chapter-11.txt
 ```
-* The -iname option allows users to perform a case-insensitive search for file names; this is useful to find files, if you forgot the complete name or don't remember the capitlisation of the file.
+* The -iname option allows users to perform a case-insensitive search for file names; this is useful to find files, if you forgot the complete name or don't remember the capitalisation of the file.
 
   ### 4. `-o`
 * Example 1:
@@ -521,5 +521,5 @@ government/Media/Crains_New_York_Business.txt
 * In these two examples I used the -o option acts as the operator OR, allowing users to specify multiple search criteria. This is useful for broadening search queries if you're looking for multiple things.
 
 # Sources:
-* https://snapshooter.com/learn/linux/find
-* https://www.redhat.com/sysadmin/linux-find-command
+* <https://snapshooter.com/learn/linux/find>
+* <https://www.redhat.com/sysadmin/linux-find-command>

@@ -164,6 +164,7 @@ plos//pmed.0020040.txt
 plos//pmed.0020068.txt
 plos//journal.pbio.0020012.txt
 ```
+* in this example I used the command `-size` + 12k combined with the `find` command. The `-size` option allows me to filter the sizes based on file sizes and by specifying +12k, I am filtering to find the files greater than 12 kilobytes.
 
 * example 2:
 ```
@@ -191,7 +192,7 @@ plos//pmed.0020082.txt
 plos//pmed.0020120.txt
 plos//pmed.0020281.txt
 ```
-* Using `-size`, you can perform a search query to find files that are equal to, greater than or less than your specified file size. This is useful if you want to look for specific files that are too big or that are very small.
+* in this example I used the command `-size` -3k combined with the `find` command. The `-size` option allows me to filter the sizes based on file sizes and by specifying -3k, I am filtering to find the files that are less than 3 kilobytes.
 
 ### 2. `-type`
 * example 1:
@@ -466,10 +467,12 @@ plos//pmed.0020242.txt
 * Using `-type f` instructs the computer to look for regular files only. This is useful for operations that should be applied specifically to files, such as searching for files by name or extension.
 
 ### 3. `-iname`
+* example 1:
 ```
 (base) michaelvasandani@MacBook-Pro-128 technical % find government/Alcohol_Problems -iname "*session2*txt"
 government/Alcohol_Problems/Session2-PDF.txt
 ```
+* In this example the `-iname` option allows users to perform case-insensitive search for file names, In this example specifically I am using it to find files with that contains the string session2 its file name, regardless of the capitalisation.
 * example 2:
 ```
 (base) michaelvasandani@MacBook-Pro-128 technical % find 911report -iname "*.txt" 
@@ -491,7 +494,7 @@ government/Alcohol_Problems/Session2-PDF.txt
 911report/chapter-10.txt
 911report/chapter-11.txt
 ```
-* The `-iname` option allows users to perform a case-insensitive search for file names; this is useful to find files, if you forgot the complete name or don't remember the capitalisation of the file.
+* In this example the `-iname` option allows users to perform case-insensitive search for file names, In this example specifically I am using it to find files with that contains the string .txt its file name, regardless of the capitalisation.
 
   ### 4. `-o`
 * Example 1:
@@ -505,6 +508,7 @@ biomed/gb-2000-1-2-research0003.txt
 biomed/1468-6708-3-3.txt
 biomed/1468-6708-3-1.txt
 ```
+* In this example the `-o` operator acts as the Operator OR, allowing users to specify multiple search criteria, in this case I'm combining it with the `find` and `-iname` options to find all files with 1468.txt or 2000.txt in their name.
 
 * Example 2:
 
@@ -518,7 +522,7 @@ government/Media/BusinessWire.txt
 government/Media/Crains_New_York_Business.txt
 ```
 
-* In these two examples I used the `-o` option acts as the operator OR, allowing users to specify multiple search criteria. This is useful for broadening search queries if you're looking for multiple things.
+* In this example the `-o` operator acts as the Operator OR, allowing users to specify multiple search criteria, in this case I'm combining it with the `find` and `-iname` options to find all files with Business.txt or barnes.txt in their name.
 
 # Sources:
 * <https://snapshooter.com/learn/linux/find>

@@ -164,7 +164,7 @@ plos//pmed.0020040.txt
 plos//pmed.0020068.txt
 plos//journal.pbio.0020012.txt
 ```
-* in this example I used the command `-size` + 12k combined with the `find` command. The `-size` option allows me to filter the sizes based on file sizes and by specifying +12k, I am filtering to find the files greater than 12 kilobytes.
+* in this example I used the command `-size` + 12k combined with the `find` command. The `-size` option allows me to filter the sizes based on file sizes and by specifying +12k, I am filtering to find the files greater than 12 kilobytes. This is useful if you want to specifically find files bigger than a certain size.
 
 * example 2:
 ```
@@ -192,7 +192,7 @@ plos//pmed.0020082.txt
 plos//pmed.0020120.txt
 plos//pmed.0020281.txt
 ```
-* in this example I used the command `-size` -3k combined with the `find` command. The `-size` option allows me to filter the sizes based on file sizes and by specifying -3k, I am filtering to find the files that are less than 3 kilobytes.
+* in this example I used the command `-size` -3k combined with the `find` command. The `-size` option allows me to filter the sizes based on file sizes and by specifying -3k, I am filtering to find the files that are less than 3 kilobytes. This is useful is you want to find files that are smaller than a certain size.
 
 ### 2. `-type`
 * example 1:
@@ -206,7 +206,7 @@ government/Gen_Account_Office
 government/Post_Rate_Comm
 government/Media
 ```
-* Using `-type` d prints out the names paths of directories contained in a certain directory. This is useful if you want to perform operations on directories without affecting the files inside them.
+* Using `-type` d prints out the names paths of directories contained in a certain directory. This is useful if you want to perform operations on directories without affecting the files inside them. This is useful is you want to filter to specifically find directories.
 
 * Example 2:
 ```
@@ -464,7 +464,7 @@ plos//journal.pbio.0020012.txt
 plos//pmed.0020281.txt
 plos//pmed.0020242.txt
 ```
-* Using `-type f` instructs the computer to look for regular files only. This is useful for operations that should be applied specifically to files, such as searching for files by name or extension.
+* Using `-type f` instructs the computer to look for regular files only. This is useful for operations that should be applied specifically to files, such as searching for files by name or extension. This is useful if you want to specifically filter for only files instead of directories.
 
 ### 3. `-iname`
 * example 1:
@@ -472,7 +472,7 @@ plos//pmed.0020242.txt
 (base) michaelvasandani@MacBook-Pro-128 technical % find government/Alcohol_Problems -iname "*session2*txt"
 government/Alcohol_Problems/Session2-PDF.txt
 ```
-* In this example the `-iname` option allows users to perform case-insensitive search for file names, In this example specifically I am using it to find files with that contains the string session2 its file name, regardless of the capitalisation.
+* In this example the `-iname` option allows users to perform case-insensitive search for file names, In this example specifically I am using it to find files with that contains the string session2 its file name, regardless of the capitalisation. This is useful if you forget the capitalisation of the file name.
 * example 2:
 ```
 (base) michaelvasandani@MacBook-Pro-128 technical % find 911report -iname "*.txt" 
@@ -494,7 +494,7 @@ government/Alcohol_Problems/Session2-PDF.txt
 911report/chapter-10.txt
 911report/chapter-11.txt
 ```
-* In this example the `-iname` option allows users to perform case-insensitive search for file names, In this example specifically I am using it to find files with that contains the string .txt its file name, regardless of the capitalisation.
+* In this example the `-iname` option allows users to perform case-insensitive search for file names, In this example specifically I am using it to find files with that contains the string .txt its file name, regardless of the capitalisation. This is useful if you forget the capitalisation of the file name.
 
   ### 4. `-o`
 * Example 1:
@@ -508,7 +508,7 @@ biomed/gb-2000-1-2-research0003.txt
 biomed/1468-6708-3-3.txt
 biomed/1468-6708-3-1.txt
 ```
-* In this example the `-o` operator acts as the Operator OR, allowing users to specify multiple search criteria, in this case I'm combining it with the `find` and `-iname` options to find all files with 1468.txt or 2000.txt in their name.
+* In this example the `-o` operator acts as the Operator OR, allowing users to specify multiple search criteria, in this case I'm combining it with the `find` and `-iname` options to find all files with 1468.txt or 2000.txt in their name. This is useful is you want to filter with multiple arguments.
 
 * Example 2:
 
@@ -522,7 +522,7 @@ government/Media/BusinessWire.txt
 government/Media/Crains_New_York_Business.txt
 ```
 
-* In this example the `-o` operator acts as the Operator OR, allowing users to specify multiple search criteria, in this case I'm combining it with the `find` and `-iname` options to find all files with Business.txt or barnes.txt in their name.
+* In this example the `-o` operator acts as the Operator OR, allowing users to specify multiple search criteria, in this case I'm combining it with the `find` and `-iname` options to find all files with Business.txt or barnes.txt in their name. This is useful is you want to filter with multiple arguments.
 
 # Sources:
 * <https://snapshooter.com/learn/linux/find>

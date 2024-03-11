@@ -1,7 +1,7 @@
 # Lab Report 4
 ---
 ## Step 4 Log into ieng6
-![Image](Step1.png)
+![Image](201.png)
 keys pressed and explanation: `s` `s` `h` `<space>` `m` `v` `a` `s` `a` `n` `d` `a` `n` `i` `@` `i` `e` `n` `g` `6` `-` `2` `0` `1` `u` `c` `s` `d` `.` `e` `d` `u`  `<enter>` -201 - the ssh command lets me login into the specified server which in this case is `ieng6-201`
 
 ## Step 5: Clone your fork of the repository from your Github account (using the `SSH` URL)

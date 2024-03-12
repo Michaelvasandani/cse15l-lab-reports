@@ -17,7 +17,7 @@
 - lab7
     - lib
       - hamcrest-core-1.3.jar
-      - kimot=4.13.2.jar
+      - junit-4.13.2.jar
     - .gitignore
     - ListExamples.java
     - ListExamplesTests.java

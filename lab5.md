@@ -1,4 +1,4 @@
-# Lab Report 4
+# Lab Report 5
 ---
 ## Part 1
 **Student**: Hi I'm having a problem with my `ListExamples.java` file, I ran the `bash test.sh` command, but I keep on failing tests. I think I might have some problems inside one of my while loops, but I'm not really sure. I attached an image of the terminal output when I ran the tests and the test I think I'm failing.
